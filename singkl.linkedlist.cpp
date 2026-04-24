@@ -41,5 +41,13 @@ class LinkedList
 
     Node *previous = START;
     Node *current = START;
-    
+
+    while (current != NULL && nim > current->noMhs)
+    {
+        if (nim == current->noMhs)
+        {
+            cout <<\nDuplikasi noMhs tidak diijinkan\n";
+            return;
+        }
+    }
 }
