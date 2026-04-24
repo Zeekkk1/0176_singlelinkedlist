@@ -63,6 +63,8 @@ int main()
     do
     {
          cout << endl
-              << }}
-
-
+              << Menu";
+         cout << endl
+              << "1. Menambah data kedalam list" << endl; }}
+         cout << "2. Menghapus data dari dalam list" << endl;
+         cout << "3. Menampilkan smeua data dari dalam list" << endl;
