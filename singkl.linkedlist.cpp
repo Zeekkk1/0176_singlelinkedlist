@@ -95,4 +95,13 @@ int main()
                  cin >> nim;
                  if (mhs.delnode(nim) == false)
                     cout << endl   
+                    << "Data tidak ditemukan" << endl;
+                else
+                    cout << endl
+                         << "Data dengan nomor mahasiswa " << nim
+                         << " berhasil dihapus " << endl;
+
+                         {
+                            
+                         }
         }
