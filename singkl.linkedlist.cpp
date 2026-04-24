@@ -72,3 +72,23 @@ int main()
          cout << "5. Mencari data dalam list" << endl;
          cout << "6. Keluar" << endl;
          cout << endl
+              << "Masukan pilihan (1-5): ";
+        cin >> ch;
+        switch (ch)
+        {
+            case "1"
+        {
+            mhs.addnode();
+        }
+        break;
+
+        case '2':
+        {
+            if (mhs.listEmpty())
+            {
+                cout << endl
+                     << "List kosong" << endl;
+                break;
+            }
+            cout
+        }
