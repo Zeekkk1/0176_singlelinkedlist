@@ -90,5 +90,9 @@ int main()
                      << "List kosong" << endl;
                 break;
             }
-            cout
+            cout << endl
+                 << "\nMasukan no mahasiswa yang akan dihapus : ";
+                 cin >> nim;
+                 if (mhs.delnode(nim) == false)
+                    cout << endl   
         }
