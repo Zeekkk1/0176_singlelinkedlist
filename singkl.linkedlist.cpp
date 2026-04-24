@@ -4,4 +4,22 @@ using namespace std;
 class node
 {
 public :
-   int 
+   int nomhs;
+   node *next;
+};
+
+class LinkedList
+{
+    Node *START;
+
+
+    public:
+    LinkedList(){
+        START = NULL;
+    }
+
+    void addnode()
+    {
+        
+    }
+}
