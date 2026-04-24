@@ -20,6 +20,18 @@ class LinkedList
 
     void addnode()
     {
-        
+        int nim;
+        cout << "n\Masukan Nomor Mahasiswa : ";
+        cin >> nim;
+        Node *nodeBaru = new Node;
+        nodeBaru->noMhs = nimm
+
+    }
+    if (START == NULL || nim <= START->noMhs)
+    {
+        if ((START != NULL) && (nim == START->noMhs))
+        {
+            cout << "\"
+        }
     }
 }
