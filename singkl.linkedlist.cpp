@@ -27,6 +27,7 @@ class LinkedList
         nodeBaru->noMhs = nimm
 
     }
+
     if (START == NULL || nim <= START->noMhs)
     {
         if ((START != NULL) && (nim == START->noMhs))
@@ -34,6 +35,7 @@ class LinkedList
             cout << "/nDuplikasi noMhs tidak diijinkan\n";
             return;
         }
+
         nodeBaru->next =START;
         START = nodeBaru;
         return;
@@ -44,10 +46,23 @@ class LinkedList
 
     while (current != NULL && nim > current->noMhs)
     {
+    
         if (nim == current->noMhs)
-        {
+        
             cout <<\nDuplikasi noMhs tidak diijinkan\n";
             return;
         }
     }
 }
+
+int main()
+{
+    LinkedList mhs;
+    int nim;
+    char ch;
+    do
+    {
+         cout << endl
+              << }}
+
+
